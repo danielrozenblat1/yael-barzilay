@@ -1,0 +1,135 @@
+
+.container{
+    display: flex;
+    width:100%;
+    height:auto;
+    margin:1% auto;
+    flex-direction: column;
+   justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.image1{
+    width:25%;
+    box-shadow: 0 0 12px 4px #fff6c495;
+    object-fit: contain;
+    border-radius: 10px;
+   margin:5% auto;
+    transition: all ease-out 1s;
+}
+.image1:hover{
+transform: translateY(5px);
+transform: scale(1.4);
+}
+
+@media only screen and (max-width: 350px)  {
+    .container{
+        display: flex;
+        width:100%;
+        height:auto;
+        margin:2% auto;
+        flex-direction: column;
+       justify-content: center;
+    }
+  
+    .image1{
+        width:90%;
+        box-shadow: 0 0 6px 1px #fff6c495;
+        object-fit: contain;
+        border-radius: 10px;
+       margin:5% auto;
+        transition: all ease-out 1s;
+    }
+    .image1:hover{
+    transform: translateY(5px);
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+  
+
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px) {
+    .container{
+        display: flex;
+        width:100%;
+        height:auto;
+        margin:2% auto;
+        flex-direction: column;
+       justify-content: center;
+    }
+  
+    .image1{
+        width:80%;
+        box-shadow: 0 0 6px 1px #fff6c495;
+        object-fit: contain;
+        border-radius: 10px;
+       margin:5% auto;
+        transition: all ease-out 1s;
+    }
+    .image1:hover{
+    transform: translateY(5px);
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+  
+
+}
+@media only screen  and (min-width: 450px) and (max-width: 550px) {
+    .container{
+        display: flex;
+        width:100%;
+        height:auto;
+        margin:2% auto;
+        flex-direction: column;
+       justify-content: center;
+    }
+   
+    .image1{
+        width:350px;
+      
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top:5%;
+        transition: all ease-out 1s;
+     
+    }
+    .image1:hover{
+    transform: translateY(5px);
+    }
+   
+}
+@media only screen  and (min-width: 550px) and (max-width: 1250px) {
+    .container{
+        display: flex;
+        width:100%;
+        height:auto;
+        margin:2% auto;
+        flex-direction: column;
+       justify-content: center;
+    }
+   
+    .image1{
+        width:400px;
+      
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top:5%;
+        transition: all ease-out 1s;
+     
+    }
+    .image1:hover{
+    transform: translateY(5px);
+    }
+}

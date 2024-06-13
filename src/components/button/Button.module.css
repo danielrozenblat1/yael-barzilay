@@ -1,0 +1,114 @@
+.wrap{
+    display: flex;
+justify-content: center;
+align-items: center;
+    margin:2% auto;
+ 
+    
+}
+.button {
+    font-family: 'Assistant'; /* פונט Assistant */
+ 
+    color: rgb(255, 255, 255); /* צבע טקסט לבן */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background:none;
+
+    font-size: 18px;
+
+width:200px;
+
+    border: 1px solid white;
+    border-radius: 12px 0 12px 0; /* עיגול הפינות */
+
+    backdrop-filter: blur(50px); /* אפקט זכוכית מטושטשת */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.308); /* צבע אדום כתום יותר כהה על העברה */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    color:black
+}
+@media only screen and (max-width: 350px){
+    .wrap{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        margin:2% auto;
+     
+        
+    }
+    .button {
+        font-family: 'Assistant'; /* פונט Assistant */
+     
+        color: rgb(255, 255, 255); /* צבע טקסט לבן */
+        padding: 10px 16px;
+        text-align: center;
+        text-decoration: none;
+        background:none;
+    
+        font-size: 18px;
+    
+    width:150px;
+    
+        border: 1px solid white;
+        border-radius: 12px 0 12px 0; /* עיגול הפינות */
+    
+        backdrop-filter: blur(50px); /* אפקט זכוכית מטושטשת */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        cursor: pointer;
+        transition: all ease 1s;
+    }
+    
+    .button:hover {
+        background: rgba(255, 255, 255, 0.308); /* צבע אדום כתום יותר כהה על העברה */
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15);
+        transform: scale(1.1);
+        color:black
+    }
+
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px){
+    .wrap{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        margin:2% auto;
+     
+        
+    }
+    .button {
+        font-family: 'Assistant'; /* פונט Assistant */
+     
+        color: rgb(255, 255, 255); /* צבע טקסט לבן */
+        padding: 12px 18px;
+        text-align: center;
+        text-decoration: none;
+        background:none;
+    
+        font-size: 18px;
+    
+    width:160px;
+    
+        border: 1px solid white;
+        border-radius: 12px 0 12px 0; /* עיגול הפינות */
+    
+        backdrop-filter: blur(50px); /* אפקט זכוכית מטושטשת */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        cursor: pointer;
+        transition: all ease 1s;
+    }
+    
+    .button:hover {
+        background: rgba(255, 255, 255, 0.308); /* צבע אדום כתום יותר כהה על העברה */
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.15);
+        transform: scale(1.1);
+        color:black
+    }
+
+}

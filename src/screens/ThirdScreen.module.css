@@ -1,0 +1,101 @@
+.background{
+    background:#393738
+}
+.center{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top:2%
+}
+.image{
+    width:100%;
+    object-fit: contain;
+}
+.title{
+color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      font-family: "Assistant";
+  direction: rtl;
+
+  }
+
+  @media only screen and (max-width: 350px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:70%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:2%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size: 2.3rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+    
+      }
+
+  }
+  @media only screen   and (min-width: 350px) and (max-width: 450px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:60%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:2%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }
+  @media only screen   and (min-width: 450px) and (max-width: 550px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:45%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:2%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }

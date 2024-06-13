@@ -1,0 +1,206 @@
+.background {
+
+    background-image: url("../images/רקע יעל ברזילאי.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:   0 0 250px 250px;
+}
+
+.name, .title {
+    color: white;
+    z-index: 1;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: "Assistant";
+}
+
+.name {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8rem;
+    margin-bottom: 20px;
+}
+
+.title {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    position: absolute;
+   z-index: 1;
+    top: 54%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 350px){
+
+    .background {
+
+        background-image: url("../images/רקע יעל ברזילאי.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 60vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius:   0 0 100px 100px;
+    }
+    
+    .name, .title {
+        color: white;
+        z-index: 1;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        font-family: "Assistant";
+    }
+    
+    .name {
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size:3.5rem;
+        width:95%;
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        position: absolute;
+        font-size: 1.5rem;
+        top: 25%;
+        width:70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .btn{
+        position: absolute;
+       z-index: 1;
+        top: 34%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media only screen  and (min-width: 350px)  and (max-width: 450px){
+
+    .background {
+
+        background-image: url("../images/רקע יעל ברזילאי.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 70vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius:   0 0 100px 100px;
+    }
+    
+    .name, .title {
+        color: white;
+        z-index: 1;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        font-family: "Assistant";
+    }
+    
+    .name {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size:3.8rem;
+        width:95%;
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        position: absolute;
+        font-size: 1.8rem;
+        top: 29%;
+        width:70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .btn{
+        position: absolute;
+       z-index: 1;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+@media only screen  and (min-width: 450px)  and (max-width: 550px){
+
+    .background {
+
+        background-image: url("../images/רקע יעל ברזילאי.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 70vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius:   0 0 120px 120px;
+    }
+    
+    .name, .title {
+        color: white;
+        z-index: 1;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        font-family: "Assistant";
+    }
+    
+    .name {
+        position: absolute;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size:4.5rem;
+        width:95%;
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        position: absolute;
+        font-size: 2rem;
+        top: 30%;
+        width:70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .btn{
+        position: absolute;
+       z-index: 1;
+        top: 41%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
