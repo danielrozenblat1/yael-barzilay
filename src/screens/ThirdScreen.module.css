@@ -99,3 +99,103 @@ color: rgb(255, 255, 255);
       direction: rtl;
       }
   }
+  @media only screen   and (min-width: 550px) and (max-width: 650px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:40%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:1%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size: 2.8rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }
+  @media only screen   and (min-width: 650px) and (max-width: 750px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:35%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:1%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size:3rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }
+  @media only screen   and (min-width: 750px) and (max-width: 950px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:30%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:1%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size:3rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }
+  @media only screen   and (min-width: 950px) and (max-width: 1150px){
+
+    .background{
+        background:#393738
+    }
+    .center{
+        width:25%;
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        padding-top:1%
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    }
+    .title{
+    color: rgb(255, 255, 255);
+        font-size:3rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          text-align: center;
+          font-family: "Assistant";
+      direction: rtl;
+      }
+  }
